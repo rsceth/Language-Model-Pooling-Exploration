@@ -1,6 +1,10 @@
-## Exploring the Impact of Different Pooling Methods on XLM-RoBERTa
+## 🤖 Exploring the Impact of Different Pooling Methods on XLM-RoBERTa
 
-## Project structure
+Hey there! Get ready to discover how they can help us better understand language! I'll be exploring two super cool techniques—LSTM pooling and weighted pooling—that will give you a deeper understanding of these models. We'll put these methods to the test in sentiment analysis tasks.
+
+
+
+## 📍 Project structure
 ```bash
 .
 ├── config                      
@@ -36,7 +40,7 @@
 ```
 
 
-## Architecure
+## ⚙️ Architecure
 <img title="LSTM Pooling on XLM-RoBERTa" src="docs/lstm.png">
 
 
