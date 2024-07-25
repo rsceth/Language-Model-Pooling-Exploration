@@ -47,10 +47,18 @@
 
 <h4>From <code>source</code></h4>
 
+### 🤖 Models
+
+> Model Architecture Detail
+> ```console
+>  check on src/model.py
+> ```
+
+### 🚀 Train
 > Train
 > ```console
 > $ bash src/train.sh
-> ``
+> ```
 
 ### 🧪 Tests
 
