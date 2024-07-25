@@ -20,8 +20,18 @@
 ├── README.md                       # describe your project
 ├── src                             # store source code
 │   ├── __init__.py                 # make src a Python module 
-│   ├── process.py                  # process data before training model
-│   └── train_model.py              # train model
+│   ├── data_batcher.py             # process data before training model
+│   └── data_loader.py              # batch the dataset
+│   └── evaluate.py                 # evaluating during training
+│   └── inference.py                # inference script
+│   └── main.py                     # trainer class
+│   └── model.py                    # model architecure
+│   └── pretrainedModel.py          # download/load pretrained model 
+│   └── train_utils.py              # train and evluate model
+│   └── train.py                    # parse paramters to train
+│   └── train.sh                    # parse paramters to train
+│   └── utils.py                    # utils to train
+│   └── visualize.py                # visualize weights for each epoch
 
 ```
 
@@ -67,9 +77,12 @@
 > $ python src/inference.py
 > ```
 
+
+
 ## 🤝 Contributing
 
 - **[Report Issues](https://github.com/rsceth/Language-Model-Pooling-Exploration/issues)**: Submit bugs found or log feature requests.
+
 
 
 ## 📄 License
