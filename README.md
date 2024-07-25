@@ -22,3 +22,48 @@
 │   ├── __init__.py                 # make src a Python module 
 │   ├── process.py                  # process data before training model
 │   └── train_model.py              # train model
+
+```
+
+
+## Architecure
+<img title="LSTM Pooling on XLM-RoBERTa" src="docs/lstm.png">
+
+
+## 🧩 Features
+
+|    |   Feature         | Description |
+|----|-------------------|---------------------------------------------------------------|
+| ⚙️  | **Architecture**  | The project leverages a Python 3.10 environment, utilizing the huggingface package for model training |
+| 🔩 | **Code Quality**  | The codebase follows best practices with automated testing |
+| 📄 | **Documentation** | [Medium Article](https://medium.com/@eaintthetrsc/tapping-into-xlm-robertas-hidden-potential-14e18a65b8b8)|
+| 🧩 | **Modularity**    | The codebase is modular with abstract factory modules for data loading, model creating, training and testing, even for inference for single testing|
+| 🧪 | **Testing**       | src/inference.py |
+| 📦 | **Dependencies**  | Key dependencies include Python, HuggingFace and CUML |
+
+
+## 🚀 Getting Started
+### 🤖 Usage
+
+<h4>From <code>source</code></h4>
+
+> Train
+> ```console
+> $ bash src/train.sh
+> ``
+
+### 🧪 Tests
+
+> Test
+> ```console
+> $ python src/inference.py
+> ```
+
+## 🤝 Contributing
+
+- **[Report Issues](https://github.com/rsceth/Language-Model-Pooling-Exploration/issues)**: Submit bugs found or log feature requests.
+
+
+## 📄 License
+
+This project is protected under the [LICENSE](LICENSE) file.
